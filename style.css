@@ -1,0 +1,27 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #2aa5a5;
+}
+
+button{
+  width: 100%;
+  height: 100%;
+
+}
+
+.calculadora{
+    width: 40%;
+    height: 60%;
+    border-radius: 30px;
+    display: grid;
+    place-items: center;
+    background-color: #2c3e50;
+    padding: 10px;
+}
+.tablacal{
+  width: 100%;
+  height: 6%;
+}

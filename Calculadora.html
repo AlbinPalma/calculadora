@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+     <script src="script.js"></script>
+    <title>Calculadora</title>
+  </head>
+  <body>
+  <div class="calculadora">
+<table border="1" style="width: 100%; height: 100%; border-radius: 5%;" >
+    <tr style="height: 150%;">
+        <td colspan="4"><input type="text" id="display" disabled style="width: 98%; height: 70%;  color: rgb(3, 3, 3);"></td>
+    </tr>
+    <tr>
+        <td><button class="number" data-value="7"><h3>7</h3></button></td>
+        <td><button class="number" data-value="8"><h3>8</h3></button></td>
+        <td><button class="number" data-value="9"><h3>9</h3></button></td>
+        <td><button class="operator" data-value="/"><H1>/</H1></button></td>
+    </tr>
+    <tr>
+        <td><button class="number" data-value="4"><h3>4</h3></button></td>
+        <td><button class="number" data-value="5"><h3>5</h3></button></td>
+        <td><button class="number" data-value="6"><h3>6</h3></button></td>
+        <td><button class="operator" data-value="*"><h1>*</H1></button></td>
+    </tr>
+    <tr>
+        <td><button class="number" data-value="1"><h3>1</h3></button></td>
+        <td><button class="number" data-value="2"><h3>2</h3></button></td>
+        <td><button class="number" data-value="3"><h3>3</h3></button></td>
+        <td><button class="operator" data-value="-"><H1>-</H1></button></td>
+    </tr>
+    <tr>
+      <td><button class="number" data-value="0"><H3>0</H3></button></td>
+      <td><button class="clear" onclick="clearLastCharacter()"><h3>C</h3></button></td>
+      <td><button class="equals" id="equals"><H3>=</H3></button></td>
+      <td><button class="operator" data-value="+"><H3>+</H3></button></td>
+  </tr>
+</table>
+  </div>
+  </body>
+</html>
